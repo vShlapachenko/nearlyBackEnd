@@ -1,0 +1,12 @@
+
+
+spring:
+  datasource:
+    url: #url to mariaDB on Amazon servers
+    username: #username
+    password: #password
+    driver-class-name: org.mariadb.jdbc.Driver
+    jpa:
+      properties:
+        hibernate:
+          dialect: org.hibernate.dialect.MySQL5InnoDBDialect
